@@ -1,0 +1,24 @@
+{
+  "name": "js-playground-crwd",
+  "version": "1.0.0",
+  "description": "Learn how to handle JavaScript functions and control structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:1": "jest 1-functions/*.test.js",
+    "test:2": "jest 2-control-structures/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sciences-u-lyon/js-playground-crwd.git"
+  },
+  "author": "Nicolas Payot <nicolas.payot@gmail.com> (http://nicolaspayot.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sciences-u-lyon/js-playground-crwd/issues"
+  },
+  "homepage": "https://github.com/sciences-u-lyon/js-playground-crwd#readme",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
