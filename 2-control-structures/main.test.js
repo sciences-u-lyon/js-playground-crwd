@@ -65,4 +65,20 @@ describe('2-control-structures', () => {
       expect(main.sort(2, 1, 0)).toBe('0, 1, 2');
     });
   });
+
+  describe('sum', () => {
+    xit('should return 10', () => {
+      expect(main.sum([1, 2, 3, 4])).toBe(10);
+    });
+
+    xit('should return 5', () => {
+      expect(main.sum([-5, -2, 4, 8])).toBe(5);
+    });
+  });
+
+  describe('filterNames', () => {
+    xit('should return "Alice, John"', () => {
+      expect(main.filterNames(['Alice', 'Bob', 'John'])).toBe('Alice, John');
+    });
+  });
 });
