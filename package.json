@@ -7,7 +7,8 @@
     "test": "jest",
     "test:1": "jest 1-functions/*.test.js",
     "test:2": "jest 2-control-structures/*.test.js",
-    "test:3": "jest 3-arrays/*.test.js"
+    "test:3": "jest 3-arrays/*.test.js",
+    "serve": "live-server 4-classes"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/sciences-u-lyon/js-playground-crwd#readme",
   "devDependencies": {
-    "jest": "^22.4.2"
+    "jest": "^22.4.2",
+    "live-server": "^1.2.0"
   }
 }
