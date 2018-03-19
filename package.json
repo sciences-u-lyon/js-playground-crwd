@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:1": "jest 1-functions/*.test.js",
-    "test:2": "jest 2-control-structures/*.test.js"
+    "test:2": "jest 2-control-structures/*.test.js",
+    "test:3": "jest 3-arrays/*.test.js"
   },
   "repository": {
     "type": "git",
