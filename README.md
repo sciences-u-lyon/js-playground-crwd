@@ -6,6 +6,7 @@ Learn how to handle JavaScript functions and control structures
 
 - Node v8+ (https://github.com/creationix/nvm)
 - yarn (`npm install -g yarn`)
+- A code editor (Visual Studio Code, Atom, ...)
 
 ## Install
 
