@@ -5,6 +5,7 @@ Learn how to handle JavaScript classes
 ## Requirements
 
 - A recent version of Chrome (v61+)
+- Or a recent version of Firefox (v54+ with the `dom.moduleScripts.enabled` setting in `about:config`)
 
 ## Usage
 
