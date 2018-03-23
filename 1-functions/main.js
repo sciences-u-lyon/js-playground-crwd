@@ -2,14 +2,14 @@
  * This function should return "HELLO" if "hello" was passed as an argument.
  */
 const uppercase = str => {
-  // TODO
+  return str.toUpperCase();
 };
 
 /**
  * This function should return "Hello has 5 characters" if "Hello" was passed as an argument.
  */
 const charCount = str => {
-  // TODO
+  return `"${str}" has ${str.length} characters`;
 };
 
 /**
@@ -17,29 +17,29 @@ const charCount = str => {
  * It should return "Hello John!" if no argument was passed.
  * You can't use if / else statements
  */
-const greetings = name => {
-  // TODO
+const greetings = (name = 'John') => {
+  return `Hello ${name}!`;
 };
 
 /**
  * This function should return the area of a rectangle, given its width and height.
  */
 const rectangleArea = (width, height) => {
-  // TODO
+  return width * height;
 };
 
 /**
  * This function should return the area of a circle, given its radius.
  */
 const circleArea = radius => {
-  // TODO
+  return Math.ceil(Math.PI * Math.pow(radius, 2));
 };
 
 /**
  * This function should return the volume of a sphere, given its radius.
  */
 const sphereVolume = radius => {
-  // TODO
+  return Math.floor(4 / 3 * Math.PI * Math.pow(radius, 3));
 };
 
 module.exports = {

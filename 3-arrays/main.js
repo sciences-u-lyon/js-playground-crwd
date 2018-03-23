@@ -4,7 +4,7 @@
  * - forEach is forbidden
  */
 const tvShowsTitles = tvShows => {
-  // TODO
+  return tvShows.map(tvs => tvs.title.toUpperCase());
 };
 
 /**
@@ -13,7 +13,7 @@ const tvShowsTitles = tvShows => {
  * - forEach is forbidden
  */
 const greatTVShows = (tvShows, rate) => {
-  // TODO
+  return tvShows.filter(tvs => tvs.rate > rate);
 };
 
 /**
@@ -22,14 +22,26 @@ const greatTVShows = (tvShows, rate) => {
  * - forEach is forbidden
  */
 const tvShowsAverageRate = tvShows => {
-  // TODO
+  const totalRates = tvShows.reduce((sum, current) => sum += current.rate, 0);
+  return totalRates / tvShows.length;
 };
 
 /**
  * This function should return a list of the tv shows sorted by a given key (title or rate)
  */
 const tvShowsSortedBy = (tvShows, key) => {
-  // TODO
+  const tvShowsCopy = tvShows.slice();
+
+  tvShowsCopy.sort((a, b) => {
+    if (a[key] > b[key]) {
+      return 1;
+    }
+    if (a[key] < b[key]) {
+      return -1;
+    }
+    return 0;
+  });
+  return tvShowsCopy;
 };
 
 module.exports = {

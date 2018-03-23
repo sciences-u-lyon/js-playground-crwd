@@ -25,7 +25,7 @@ describe('3-arrays', () => {
     ]);
   });
 
-  xit('should return tv shows with rate greater than 93', () => {
+  it('should return tv shows with rate greater than 93', () => {
     expect(main.greatTVShows(tvShows, 93)).toEqual([
       { title: 'Black Mirror', rate: 96 },
       { title: 'Breaking Bad', rate: 95 },
@@ -34,7 +34,7 @@ describe('3-arrays', () => {
     ]);
   });
 
-  xit('should return tv shows average rate', () => {
+  it('should return tv shows average rate', () => {
     expect(main.tvShowsAverageRate(tvShows)).toBe(92);
   });
 
@@ -52,7 +52,7 @@ describe('3-arrays', () => {
       ];
     });
 
-    xit('should return tv shows sorted by title', () => {
+    it('should return tv shows sorted by title', () => {
       expect(main.tvShowsSortedBy(unsortedTVShows, 'title')).toEqual([
         { title: 'Black Mirror', rate: 96 },
         { title: 'Breaking Bad', rate: 95 },
@@ -63,7 +63,7 @@ describe('3-arrays', () => {
       ]);
     });
 
-    xit('should return tv shows sorted by rate', () => {
+    it('should return tv shows sorted by rate', () => {
       expect(main.tvShowsSortedBy(unsortedTVShows, 'rate')).toEqual([
         { title: 'The Walking Dead', rate: 81 },
         { title: 'Jessica Jones', rate: 92 },
