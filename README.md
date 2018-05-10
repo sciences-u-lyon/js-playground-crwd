@@ -33,3 +33,5 @@ With a terminal, go to `js-playground-crwd/` folder and run, to install dependen
 Only the first tests of each suite are active. Once they pass, activate the next ones by replacing `xit` with `it`. Repeat until all tests pass.
 
 - For `4-classes/`, instructions are in [4-classes/README.md](4-classes/README.md) file.
+
+- For `5-async/`, instructions are in [5-async/README.md](5-async/README.md) file.
